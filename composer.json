@@ -1,0 +1,31 @@
+{
+    "name": "forseti/space-jam",
+    "description": "Bot Space Jam",
+    "homepage": "http://forseti.com.br",
+
+    "authors": [
+        {
+            "name": "Vinicius Viana",
+            "email": "viniviana75@hotmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "forseti/logger": "^1.7",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^3.4",
+        "phpunit/phpunit": "^4.6"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Forseti\\Bot\\SpaceJam\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Forseti\\Bot\\SpaceJam\\Tests\\": "tests/"
+        }
+    }
+}
